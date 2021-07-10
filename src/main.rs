@@ -4,8 +4,9 @@ use algorithms::encryption;
 
 
 fn main() {
-    println!("Hello, world!");
-    encryption::test();
+    let to_test = "foo bar";
+    let output = &encryption::caesar(to_test, 5);
+    println!("{}", output);
 }
 
 // todo: 
