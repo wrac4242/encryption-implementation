@@ -1,7 +1,14 @@
+mod algorithms;
+
+use algorithms::encryption;
+
+
 fn main() {
     println!("Hello, world!");
+    encryption::test();
 }
 
 // todo: 
-// do keygen
-// encrypt, decrypt
+// add a basic encryption algorithm
+// maybe a basic xor?
+// probably should have seperate files
